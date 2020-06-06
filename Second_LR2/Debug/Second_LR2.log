@@ -1,0 +1,9 @@
+﻿  Second_LR2.cpp
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(5,23): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(30,22): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(42,54): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(66,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(71,22): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(73,15): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Second_LR2\Second_LR2.cpp(52): warning C4715: func: значение возвращается не при всех путях выполнения
+  Second_LR2.vcxproj -> C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Second_LR2\Debug\Second_LR2.exe
