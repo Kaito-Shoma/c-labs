@@ -1,0 +1,4 @@
+﻿  Third_LR.cpp
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Third_LR\Third_LR\Third_LR.cpp(22,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Third_LR\Third_LR\Third_LR.cpp(61,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Third_LR.vcxproj -> C:\Users\it-m.by\Desktop\Учеба\Лабы второй сем\Си\Third_LR\Debug\Third_LR.exe
