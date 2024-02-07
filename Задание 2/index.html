@@ -1,0 +1,138 @@
+<!DOKTYPE HTML>
+<html>
+<head>
+<meta http-eqiv="content-type" content="text/html; charset=utf-8">
+<title>моя первая веб-страница</title>
+</head>
+<style>
+	.container{
+		display: grid;
+		grid-template-areas:
+		'header header'
+		'menu menu'
+		'sidebar content'
+		'fooder fooder';
+
+		grid-gap: 0;
+		grid-template-columns: 200px 1fr;
+		grid-template-rows: 120px auto 1fr 30px;
+		grid-template-columns: 245px auto;
+	}
+	.item{
+		padding: 10px;
+		border: 1px solid black;
+	}
+	.header{
+		grid-area: header;
+		background: #ccc;
+		color: #696969;
+		padding-left: 150px;
+		line-height: 1.5em;
+	}
+	.logo {
+		position: relative;
+		right: 140px;
+		bottom: 25px;
+		margin-right: 120px;
+		
+	}
+	.menu{
+		grid-area: menu;
+		background: #2c2c2c;
+		color: #fff;
+		margin-bottom: 15px;
+		height: 35px;
+	}
+	.sidebar{
+		background-color: #ccc;
+		grid-area: sidebar;
+	}
+	.content{
+		grid-area: content;
+		height: 70vh;
+		padding-left: 20px;
+		padding-bottom: 30px;
+	}
+	.fooder{
+		grid-area: fooder;
+		background: #2c2c2c;
+	}
+	.btn{
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+		height: 40px;
+		padding: 5px;
+		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	a:hover{
+		background: white;
+		color: black;
+	}
+	.link{
+		background: #2c2c2c;
+		color:white;
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		display:inline-block;
+		line-height: 35px;
+		padding: 0 5px;
+	}
+	.link:hover {
+		background: white;
+		color: black;
+		text-decoration: underline;
+	}
+	.kakulya{
+	 margin-top: 10px;
+	}
+	.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+	body{padding: 0px 140px;}
+</style>
+</head>
+<body>
+<div class="container">
+	<div class="item header">
+		<div class="logo"><img src="C:\Users\Julia\Pictures\Saved Pictures\white.png" align="left" width="80px" height="80px">
+		<h1>EPAM SYSTEM</h1>
+		<h2>UI LAB TRAINING</h2>
+	</div>
+	</div>
+	<div class="menu">
+		<a href="" class="btn">About UI Lab</a>
+		<a href="" class="btn">Home Task</a>
+		<a href="" class="btn">Tests & Exams</a>
+	</div>
+	<div class="sidebar">
+	<div class="kakulya">
+	<a href="" class="link">Vertical navigation sample</a>
+	<a href=""class="link">Vertical navigation sample</a>
+	<a href=""class="link">Vertical navigation sample</a>
+	<a href="" class="link">Vertical navigation sample</a>
+	<a href="" class="link">Vertical navigation sample</a>
+	<a href="" class="link">Vertical navigation sample</a></div>
+	</div>
+	<div class="content">
+	<p style = "font-size: 25px; line-height: 0px; display:inline-block; bottom: 10px; position: relative">Level 2 Heading</p>
+		<p style = "bottom: 30px; position: relative">Lorem ipsum, dolor sit amet consectetur, adipisicing elit. Dolor eos quibusdam illum culpa pariatur totam exercitationem itaque maiores voluptate. Fugit repellendus deleniti vel, error facilis quae sint aliquid nam quos iusto tempore vero sequi nobis rerum molestias commodi et alias aliquam quisquam numquam! Soluta ullam facere quibusdam rem, culpa in aliquid, dolorem, delectus, saepe voluptas maxime. Molestias enim asperiores, sit! Voluptatem maiores, voluptatum, sint eum quia nihil aspernatur, repudiandae qui nisi dolore facere. Accusantium provident debitis ipsum dolores tempora nihil ratione, repudiandae dicta, assumenda minus magnam maxime quis esse, consequatur autem illum nulla ab nobis? Quidem deleniti totam, rem laudantium?</p>
+		<p style = "font-size: 20px; bottom: 40px; position: relative">Level 3 Heading</p>
+		<p><ul style = "bottom: 50px; position: relative">
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+			<li>Basic list Sample</li>
+	</div>
+	<div class="fooder"></div>
+</div>
+</body>
+</html>
