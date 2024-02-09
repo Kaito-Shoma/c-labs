@@ -1,0 +1,93 @@
+.container{
+		display: grid;
+		grid-template-areas:
+		'header header'
+		'menu menu'
+		'sidebar content'
+		'fooder fooder';
+
+		grid-gap: 0;
+		grid-template-columns: 200px 1fr;
+		grid-template-rows: 120px auto 1fr 30px;
+		grid-template-columns: 245px auto;
+	}
+	.item{
+		padding: 10px;
+		border: 1px solid black;
+	}
+	.header{
+		grid-area: header;
+		background: #ccc;
+		color: #696969;
+		padding-left: 150px;
+		line-height: 1.5em;
+	}
+	.logo {
+		position: relative;
+		right: 140px;
+		bottom: 25px;
+		margin-right: 120px;
+		
+	}
+	.menu{
+		grid-area: menu;
+		background: #2c2c2c;
+		color: #fff;
+		margin-bottom: 15px;
+		height: 35px;
+	}
+	.sidebar{
+		background-color: #ccc;
+		grid-area: sidebar;
+	}
+	.content{
+		grid-area: content;
+		height: 70vh;
+		padding: 0px 0px 30px 20px;
+		/*padding-left: 20px;
+		padding-bottom: 30px;*/
+	}
+	.fooder{
+		grid-area: fooder;
+		background: #2c2c2c;
+	}
+	.btn{
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+		height: 40px;
+		text-align: center;
+		font-family: sans-serif;
+		padding: 5px 15px 5px 15px;
+		/*padding-left: 15px;
+		padding-right: 15px;
+		padding: 5px;*/
+	}
+	a:hover{
+		background: white;
+		color: black;
+	}
+	.link{
+		background: #2c2c2c;
+		color:white;
+		font-size: 20px;
+		margin-left: 10px;
+		text-decoration: none;
+		display:inline-block;
+		line-height: 35px;
+		padding: 0 5px;
+	}
+	.link:hover {
+		background: white;
+		color: black;
+		text-decoration: underline;
+	}
+	.kakulya{
+	 margin-top: 10px;
+	}
+	.square {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+	body{padding: 0px 140px;}
