@@ -1,0 +1,240 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'menu menu'
+    'sidebar content'
+    'footer footer';
+  grid-gap: 0;
+  grid-template-columns: 230px auto;
+  grid-template-rows: 240px auto 1fr auto;
+  height: 1100px;
+}
+.header{
+	grid-area: header;
+	background: white;
+	color: #696969;
+	line-height: 0.3em;
+	}
+.menu{
+  grid-area: menu;
+  background: #2c2c2c;
+  color: #fff;
+  padding: 0 0 0 200px;
+  background: rgb(208,208,232);
+  background: linear-gradient(0deg, rgba(208,208,232,1) 26%, rgba(211,210,233,1) 43%, rgba(233,232,246,1) 63%, rgba(233,232,246,1) 100%);
+  }
+.sidebar{
+	grid-area: sidebar;
+	background-color: #eae8ee;
+	}
+.content {
+  grid-area: content;
+  padding: 10px 0 0 50px;
+
+}
+.footer {
+   grid-area: footer;
+  background-color: #7370b2;
+  color: white;
+  text-align: center;
+  height: 110px;
+}
+.img-header{
+	position: relative;
+	left: 30px;
+	top: 30px;
+}
+.btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #265578;
+	height: 30px;
+	text-align: center;
+	padding: 5px 15px 5px 18px;
+	font-family:system-ui;
+	text-transform: uppercase;
+	position: relative;
+	left: 50px;
+		}
+a.btn:hover{
+  background: white;
+  color: black;
+  background: rgb(55,127,167);
+  background: linear-gradient(0deg, rgba(55,127,167,1) 26%, rgba(111,168,198,1) 43%, rgba(164,208,221,1) 63%, rgba(175,214,229,1) 100%);
+  }
+.header-link{
+	text-align: right;
+	position: relative;
+	bottom: 160px;
+	font-size: 12px;
+	}
+.link-home{
+	text-decoration: none;
+	}
+.a-header{
+	color: #265578;
+	}
+.a-header:hover{
+	color:#265578;
+	background: none;
+	}
+.img-header-line{
+	width:100%;
+	height:132px ;
+	position: relative;
+	top: 35px;
+	}
+.line {
+  content: "";
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  top: 35px;
+  background-color: #b1d1de;
+}
+.company{
+	display: block;
+	position: relative;
+	width: 230px;
+	height: 30px;
+	bottom: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: system-ui;
+	background-color: #8979b4;
+	color: white;
+}
+.sidebar-li{
+	display: inline-block;
+	position: relative;
+  margin: -15px 0;
+  line-height: 30px;
+  font-size: 14px;
+  right: 40px;
+}
+li{
+  list-style: none;
+  background: url(simvol.png) no-repeat 4px 8px; 
+  padding-left: 45px;
+  background-size: 23%;
+}
+.one{
+  list-style: none;
+  background: url(screenshot_3.png) no-repeat 8px 6px;
+  padding-left: 45px;
+  background-size: 20%;
+}
+.span{
+	color:#008B8B;
+}
+.span-content{
+	color:#008B8B;
+	font-weight: 900;
+}
+.content-menu{
+	position: relative;
+	font-size: 12px;
+}	
+.content-header{
+	position: relative;
+	bottom: 10px;
+	font-size: 30px;
+	color: blue;
+	font-family: Arial Narrow, sans-serif;
+	border-bottom: 2px solid #c0c0c0;
+	padding-bottom: 5px;
+}
+.content-name{
+  display: inline-block;
+  position: relative;
+  font-family: Arial Narrow, sans-serif;
+  font-size: 20px;
+  bottom: 30px;
+  font-weight: 600;
+  color: #8979b4;
+  right: 150px;
+}
+.img-content{
+	width: 150px;
+	height: 170px;
+	float: left;
+	position: relative;
+	top: 40px;
+	opacity: 0.25;
+}
+.content-p{
+	position: relative;
+  font-family: Trebuchet MS, sans-serif;
+}
+.p-one{
+	 left: 30px;
+  bottom: 40px;
+}
+.p-two{
+  left: 180px;
+  bottom: 50px;
+  padding-left: 150px;
+  left: 30px;
+}
+.p-three{
+  left: 30px;
+  bottom: 60px;
+  text-indent: 180px;
+  margin-left: -30px;
+}
+.name-two{
+  font-weight: 600;
+  bottom: 60px;
+  right: 150px;
+}
+.img-two{
+	top:7px;
+	opacity: 0.25;
+}
+.p-four{
+  bottom: 75px;
+  left: 35px;
+}
+.p-five{
+  bottom: 75px;
+  padding-left: 150px;
+  left: 35px;
+}
+.p-six{
+  bottom: 80px;
+  left: 185px;
+}
+.content-line{
+	border-bottom: 2px solid #c0c0c0;
+	padding-bottom: 5px;
+	position: relative;
+	bottom: 60px;
+}
+.content-link{
+	position: relative;
+	bottom: 30px;
+}
+.img-footer{
+ position: relative;
+ left: 950px;
+ bottom: 80px;
+}
+.p-footer{
+	position: relative;
+  text-align: left; 
+  left: 40px;
+  top: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px; 
+  font-family: Trebuchet MS, sans-serif;
+}
+
+
+html, body {
+  height: 100%;
+  width: 1200px;
+  margin-left: 200px;
+}
